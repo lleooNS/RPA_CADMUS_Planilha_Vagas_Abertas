@@ -41,7 +41,7 @@ documento por e-mail para o Gerente de Recursos Humanos para que seja feita a an
 da biblioteca **Pandas** do Python, é possível criar a planilha.
 * A planilha contem 3 colunas respectivamente: **(Nome, Local, Descrição)**.
 
-![Tela Planilha](documents/img/planilha.PNG)
+![Tela Planilha](documents/img/Planilha.PNG)
 
 ### ETAPA 3
 
