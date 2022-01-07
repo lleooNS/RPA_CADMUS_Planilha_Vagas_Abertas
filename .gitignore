@@ -1,0 +1,6 @@
+logs
+build
+.idea
+.venv
+main.spec
+__pycache__
