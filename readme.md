@@ -21,6 +21,9 @@ documento por e-mail para o Gerente de Recursos Humanos para que seja feita a an
 ![Tela vagas](documents/img/vagas.PNG)
 
 * Percorrer cada vaga, armazenando o nome e a localidade em listas.
+  
+![Tela nome_vaga](documents/img/nome_vaga.PNG)
+
 * Para armazenar a descrição da vaga em uma lista, é necessário clicar no botão:
 
 ![Botão Ver Detalhes da Vaga](documents/img/detalhes.PNG)
@@ -38,21 +41,22 @@ documento por e-mail para o Gerente de Recursos Humanos para que seja feita a an
 da biblioteca **Pandas** do Python, é possível criar a planilha.
 * A planilha contem 3 colunas respectivamente: **(Nome, Local, Descrição)**.
 
+![Tela Planilha](documents/img/planilha.PNG)
 
 ### ETAPA 3
 
 * Enviar o email contendo a planilha em anexo.
 
-* No arquivo Python **steps.py**, existe a função **send_email()**. Para enviar o email, as variáveis
-devem ser modificadas:
+* Para enviar o email, as variáveis devem ser modificadas no arquivo **configs/.config.yml**:
   
-~~~python
-def send_email():
-    
-    # Os emails e a senha devem ser modificados
-    email_login = 'test1@gmail.com'
-    password = 'senha_email'
-    email_to = 'test2@gmail.com'
+~~~yml
+# Os emails e a senha devem ser modificados
+
+email_login: teste1@gmail.com
+
+password: senha_email
+
+email_to: teste2@gmail.com
 ~~~
 
 * O código está configurado para a utilização do **gmail**, mas ainda é necessário realizar uma configuração

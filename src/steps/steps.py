@@ -1,6 +1,7 @@
+import configs.config
 from datetime import datetime
 from logging import exception, info, INFO, basicConfig
-from os import getcwd
+from os import getcwd, getenv
 from os.path import isfile
 from pathlib import Path
 from time import sleep
@@ -126,10 +127,10 @@ def send_email():
     now_str = now_dt.strftime('%d/%m/%Y')
     dir_excel_spreadsheet = str(Path(getcwd(), 'documents', 'downloads', 'Vagas_Abertas_Cadmus.xlsx'))
 
-    # Os emails e a senha devem ser modificados
-    email_login = 'test1@gmail.com'
-    password = 'senha_email'
-    email_to = 'test2@gmail.com'
+    # Os emails e a senha devem ser modificados no arquivo configs/.config.yml
+    email_login = getenv('EMAIL_LOGIN')
+    password = getenv('PASSWORD')
+    email_to = getenv('EMAIL_TO')
     port = 587
     type_host = 'gmail'
 

@@ -1,0 +1,8 @@
+
+# Os emails e a senha devem ser modificados
+
+email_login: teste1@gmail.com
+
+password: senha_email
+
+email_to: teste2@gmail.com
