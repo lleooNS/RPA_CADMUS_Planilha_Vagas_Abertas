@@ -14,7 +14,7 @@ documento por e-mail para o Gerente de Recursos Humanos para que seja feita a an
 
 * Acessar o site da **CADMUS:**
 
-![Tela inicial](documents/img/inicio.PNG)
+![Tela inicial](documents/img/inicio.png)
 
 * Rolar a página até as vagas abertas:
 
